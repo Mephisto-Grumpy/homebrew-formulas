@@ -9,8 +9,6 @@ class DotfilesInstaller < Formula
   sha256 "a023b0991d8863e695f0b55b1e3d7edf653a88510bbfb35aa3161970d680b211"
   license "MIT"
 
-  depends_on "go" => :build
-
   def install
     bin.install "dotfiles-installer"
   end
