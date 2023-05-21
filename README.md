@@ -25,9 +25,7 @@ brew search Mephisto-Grumpy/formulas
 ## 🍴 Table
 
 <!-- project_table_start -->
-
-| Project                                                                     | Description                                              | Install                           |
-| --------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------- |
-| [dotfiles-installer](https://github.com/Mephisto-Grumpy/dotfiles-installer) | A simple script to install my dotfiles on a new machine. | `brew install dotfiles-installer` |
-
+| Project                                                                     | Description                                     | Install                           |
+| --------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------- |
+| [dotfiles-installer](https://github.com/Mephisto-Grumpy/dotfiles-installer) | Clones a github repo and creates symbolic links | `brew install dotfiles-installer` |
 <!-- project_table_end -->

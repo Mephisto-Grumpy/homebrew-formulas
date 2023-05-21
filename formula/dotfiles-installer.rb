@@ -10,6 +10,6 @@ class DotfilesInstaller < Formula
   license "MIT"
 
   def install
-    bin.install "dotfiles-installer"
+    bin.install "dotfiles-installer" => "dotfiles-installer"
   end
 end
