@@ -15,7 +15,11 @@ This repos is completely automated and maintained via [Justintime50/homebrew-rel
 ## 📦 Install
 
 ```bash
+# Setup tap
 brew tap Mephisto-Grumpy/formulas
+
+# Check out the formulas
+brew search Mephisto-Grumpy/formulas
 ```
 
 ## 🍴 Table
