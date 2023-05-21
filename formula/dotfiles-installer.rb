@@ -5,8 +5,8 @@
 class DotfilesInstaller < Formula
   desc "Clones a github repo and creates symbolic links"
   homepage "https://github.com/Mephisto-Grumpy/dotfiles-installer"
-  url "https://github.com/Mephisto-Grumpy/dotfiles-installer/archive/release-12.tar.gz"
-  sha256 "73895fd486f90957748c669cfd9556b507653509b9f5f217ac9d24d1ce45a532"
+  url "https://github.com/Mephisto-Grumpy/dotfiles-installer/archive/release-13.tar.gz"
+  sha256 "32091d87e12c4a6c090bcc317c26e4f191ca1d704eb2b1791070af14cdec01b8"
   license "MIT"
 
   def install
