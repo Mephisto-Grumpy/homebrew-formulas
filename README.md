@@ -12,10 +12,18 @@ My personal Homebrew tap housing formulas for all my Homebrew projects.
 
 This repos is completely automated and maintained via [Justintime50/homebrew-releaser](https://github.com/marketplace/actions/homebrew-releaser). If you are looking for a way to publish your own Homebrew formula on your behalf, you should check it out!
 
+## 📦 Install
+
+```bash
+brew tap Mephisto-Grumpy/formulas
+```
+
 ## 🍴 Table
 
 <!-- project_table_start -->
 
-TABLE HERE
+| Project                                                                     | Description                                              | Install                           |
+| --------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------- |
+| [dotfiles-installer](https://github.com/Mephisto-Grumpy/dotfiles-installer) | A simple script to install my dotfiles on a new machine. | `brew install dotfiles-installer` |
 
 <!-- project_table_end -->
