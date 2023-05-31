@@ -1,8 +1,8 @@
 class DotfilesInstaller < Formula
   desc "Clones a github repo and creates symbolic links"
   homepage "https://github.com/Mephisto-Grumpy/d  otfiles-installer"
-  license "MIT"
   version "1.1.1"
+  license "MIT"
 
   if OS.mac?
     url "https://github.com/Mephisto-Grumpy/dotfiles-installer/releases/download/#{version}/dotfiles-installer-darwin-amd64"
