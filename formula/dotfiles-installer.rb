@@ -16,10 +16,14 @@ class DotfilesInstaller < Formula
   end
 
   def install
-    true
+    if OS.mac?
+  bin.install "dotfiles-installer-darwin-amd64" => "dotfiles-installer"
+else
+  bin.install "dotfiles-installer-linux-amd64" => "dotfiles-installer"
+end
   end
 
   test do
-    true
+    assert_match "Version:", shell_output("#{bin}/dotfiles-installer --version")
   end
 end
