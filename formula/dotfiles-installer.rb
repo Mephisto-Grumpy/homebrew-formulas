@@ -20,11 +20,10 @@ class DotfilesInstaller < Formula
       url "https://github.com/Mephisto-Grumpy/dotfiles-installer/releases/download/1.1.1/dotfiles-installer-darwin-amd64"
       sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       bin.install "dotfiles-installer-darwin-amd64" => "dotfiles-installer"
-  else
+    else
       url "https://github.com/Mephisto-Grumpy/dotfiles-installer/releases/download/1.1.1/dotfiles-installer-linux-amd64"
       sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       bin.install "dotfiles-installer-linux-amd64" => "dotfiles-installer"
-  end
   end
 
   test do
